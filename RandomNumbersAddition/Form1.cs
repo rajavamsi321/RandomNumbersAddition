@@ -22,7 +22,7 @@ namespace RandomNumbersAddition
         
         private void frmAdd_Load(object sender, EventArgs e)
         {
-           
+            // random variable instance
             randNum = new Random();
             a = randNum.Next(100, 501);
             b = randNum.Next(100, 501);
